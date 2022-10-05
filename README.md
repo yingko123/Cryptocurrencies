@@ -1,34 +1,39 @@
 # Cryptocurrencies - An Upsupervised Machine Learning Analysis
 
+
 ## Overview
-Using unsupervised machine learning analysis techique, we will attempt to classify a database of 1,252 cryptocurrencies.
+Using unsupervised machine learning analysis techique, we will classify and visualized a database of 1,252 cryptocurrencies.<br>
+<br>
+
 
 ## Process
-We first performing the ETL (Extract, Transform, Load) process on the [raw cryptocurrencies dataset.](crypto_data.csv)
+We first performing the ETL (Extract, Transform, Load) process on the [raw cryptocurrencies dataset.](crypto_data.csv)<br>
 
-**Raw Cryptocurrencies Dataset**
-<img src = 'images/crypto_data.JPG' width=350px>
+**Raw Cryptocurrencies Dataset**<br>
 
-We then apply the PCA data processing technique followed by the K-Means method to determine 4 clusters as the optimal grouping choice.
+<img src = 'images/crypto_data.JPG' width=400px>
 
-<img src = 'images/KmeansElbow.JPG' width=350px>
+We then apply the PCA data processing technique followed by the K-Means method to determine 4 clusters as the optimal grouping choice.<br>
+
+
+<img src = 'images/KmeansElbow.JPG' width=400px>
 
 
 ## Visualization
 
-We demonstrates two ways to display the four grouping of resulting 533 cryptocurrencies.
+We demonstrate two ways to visualized the four grouping of the resulting 533 cryptocurrencies.
 
 **3D-PCA** <br>
-Four clusters of cryptocurrencies using the three PCA dimensions in our analysis<br>
+Four clusters of cryptocurrencies plotted against the three PCA dimensions we used in our analysis<br>
 
-<img src = 'images/PCA_clusters.JPG' width=350px>
+<img src = 'images/PCA_clusters.JPG' width=400px>
 <br>
 
 
-**Supply and Minned**<br>
-Four clusters of cryptocurrencies ploted in relationship to their total supply and total mined <br>
+**Supply and Mined**<br>
+Four clusters of cryptocurrencies ploted in relationship to their total supply and total mined numbers <br>
 
-<img src = 'images/PCA_cluster_supply&mined_visual.JPG' width=350px>
+<img src = 'images/PCA_cluster_supply&mined_visual.JPG' width=400px>
 
 
 
