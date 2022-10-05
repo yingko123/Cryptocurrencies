@@ -26,16 +26,16 @@ We then apply the PCA data processing technique followed by the K-Means method t
 We demonstrate two ways to visualize the four grouping of the resulting 532 cryptocurrencies.
 
 **3D-PCA** <br>
-Four clusters of cryptocurrencies plotted against the three PCA dimensions we used in our analysis<br>
+Four clusters of cryptocurrencies plotted against the three PCA dimensions we used in our analysis (PC1, PC2, PC3)<br>
 
 <img src = 'images/PCA_clusters.JPG' width=450px>
 <br>
 
 
 **Supply and Mined**<br>
-Four clusters of cryptocurrencies ploted in relationship to their total supply and total mined numbers <br>
+Four clusters of cryptocurrencies ploted in relationship to their scaled (0-1) total supply and total mined numbers <br>
 
-<img src = 'images/PCA_cluster_supply&mined_visual.JPG' width=500px>
+<img src = 'images/PCA_cluster_supply&mined_visual.JPG' width=600px>
 
 
 
