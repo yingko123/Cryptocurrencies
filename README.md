@@ -1,4 +1,5 @@
-# Cryptocurrencies - An Upsupervised Machine Learning Analysis
+# Cryptocurrencies - An Upsupervised Machine Learning Analysis <br>
+
 
 
 ## Overview
@@ -12,12 +13,12 @@ We first performing the ETL (Extract, Transform, Load) process on the [raw crypt
 **Raw Cryptocurrencies Dataset**<br>
 
 <img src = 'images/crypto_data.JPG' width=400px>
+<br>
 
 We then apply the PCA data processing technique followed by the K-Means method to determine 4 clusters as the optimal grouping choice.<br>
 
 
 <img src = 'images/KmeansElbow.JPG' width=400px>
-
 
 ## Visualization
 
