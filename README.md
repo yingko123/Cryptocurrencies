@@ -8,7 +8,7 @@ Using unsupervised machine learning analysis techniques, we will classify and vi
 
 
 ## Process
-We first perform the ETL (Extract, Transform, Load) process on the [raw cryptocurrency dataset.](crypto_data.csv)<br>
+We first perform data processing and clean up on the [raw cryptocurrency dataset.](crypto_data.csv)<br>
 
 **Raw Cryptocurrencies Dataset**<br>
 
@@ -19,10 +19,11 @@ We then apply the PCA data processing technique followed by the K-Means method t
 
 
 <img src = 'images/KmeansElbow.JPG' width=450px>
+<br>
 
 ## Visualization
 
-We demonstrate two ways to visualize the four grouping of the resulting 533 cryptocurrencies.
+We demonstrate two ways to visualize the four grouping of the resulting 532 cryptocurrencies.
 
 **3D-PCA** <br>
 Four clusters of cryptocurrencies plotted against the three PCA dimensions we used in our analysis<br>
@@ -34,7 +35,7 @@ Four clusters of cryptocurrencies plotted against the three PCA dimensions we us
 **Supply and Mined**<br>
 Four clusters of cryptocurrencies ploted in relationship to their total supply and total mined numbers <br>
 
-<img src = 'images/PCA_cluster_supply&mined_visual.JPG' width=450px>
+<img src = 'images/PCA_cluster_supply&mined_visual.JPG' width=500px>
 
 
 
