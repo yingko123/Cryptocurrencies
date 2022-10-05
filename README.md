@@ -7,11 +7,11 @@ Using unsupervised machine learning analysis techique, we will attempt to classi
 We first performing the ETL (Extract, Transform, Load) process on the [raw cryptocurrencies dataset.](crypto_data.csv)
 
 **Raw Cryptocurrencies Dataset**
-<img src = 'images/crypto_data.JPG'>
+<img src = 'images/crypto_data.JPG' width=350px>
 
 We then apply the PCA data processing technique followed by the K-Means method to determine 4 clusters as the optimal grouping choice.
 
-<img src = 'images/KmeansElbow.JPG'>
+<img src = 'images/KmeansElbow.JPG' width=350px>
 
 
 ## Visualization
@@ -21,14 +21,14 @@ We demonstrates two ways to display the four grouping of resulting 533 cryptocur
 **3D-PCA** <br>
 Four clusters of cryptocurrencies using the three PCA dimensions in our analysis<br>
 
-<img src = 'images/PCA_clusters.JPG'>
+<img src = 'images/PCA_clusters.JPG' width=350px>
 <br>
 
 
 **Supply and Minned**<br>
 Four clusters of cryptocurrencies ploted in relationship to their total supply and total mined <br>
 
-<img src = 'images/PCA_cluster_supply&mined_visual.JPG'>
+<img src = 'images/PCA_cluster_supply&mined_visual.JPG' width=350px>
 
 
 
